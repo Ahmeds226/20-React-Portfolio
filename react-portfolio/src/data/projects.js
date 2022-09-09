@@ -65,6 +65,16 @@ const projects = [
     deployedLink: "https://ahmeds226.github.io/Weather-Dashboard/",
     repositoryLink: "https://github.com/Ahmeds226/Weather-Dashboard",
   },
+  {
+    // Updated Portfolio:
+    image:
+      "https://raw.githubusercontent.com/Ahmeds226/Updated-Portfolio-Page-2/main/assets/images/preview.png",
+    alt: "Preview of my Updated Portfolio",
+    title: "Updated Portfolio",
+    description: "Updated Portfolio.",
+    deployedLink: "https://ahmeds226.github.io/Updated-Portfolio-Page-2/",
+    repositoryLink: "https://github.com/Ahmeds226/Updated-Portfolio-Page-2",
+  },
 ];
 
 export default projects;
@@ -74,8 +84,8 @@ export default projects;
 // 3. Password Generator - Done
 // 4. Code Quiz - Done
 // 5. Day Planner - Done
-// 6. Weather Dashboard
-// 7. Updated Portfolio
+// 6. Weather Dashboard - Done
+// 7. Updated Portfolio - Done
 // 8. Note Taker
 // 9. Text editor
 
