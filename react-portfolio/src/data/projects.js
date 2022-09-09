@@ -75,6 +75,17 @@ const projects = [
     deployedLink: "https://ahmeds226.github.io/Updated-Portfolio-Page-2/",
     repositoryLink: "https://github.com/Ahmeds226/Updated-Portfolio-Page-2",
   },
+  {
+    // Note taker:
+    image:
+      "https://raw.githubusercontent.com/Ahmeds226/Note-taker/main/public/assets/images/preview.png",
+    alt: "Preview of my Note taker",
+    title: "Note taker",
+    description:
+      "An application that enables people such as small business owners to write and save notes so that they can organise their thoughts and note down any tasks they need to complete.",
+    deployedLink: "https://fierce-gorge-19170.herokuapp.com/",
+    repositoryLink: "https://github.com/Ahmeds226/Note-taker",
+  },
 ];
 
 export default projects;
@@ -86,7 +97,7 @@ export default projects;
 // 5. Day Planner - Done
 // 6. Weather Dashboard - Done
 // 7. Updated Portfolio - Done
-// 8. Note Taker
+// 8. Note Taker - Done
 // 9. Text editor
 
 // Group Projects:
