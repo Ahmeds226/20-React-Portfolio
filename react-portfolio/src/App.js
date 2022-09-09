@@ -8,6 +8,7 @@ import AboutMeSection from "./sections/AboutMeSection";
 import ContactMeSection from "./sections/ContactMeSection";
 import ProjectSection from "./sections/ProjectSection";
 
+// App function // Loads page
 function App() {
   return (
     <div>
