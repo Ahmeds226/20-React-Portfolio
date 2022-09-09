@@ -13,6 +13,17 @@ const projects = [
     repositoryLink: "https://github.com/iosman11/Football-Tracker-",
   },
   {
+    // Code College:
+    image:
+      "https://raw.githubusercontent.com/mohamedisaaq0/Code-College/main/public/assets/images/preview.png",
+    alt: "Preview of the group project application we created called Code College",
+    title: "Code College",
+    description:
+      "In our second project, we built a learning tracker to help users track their progress when learning programming languages",
+    deployedLink: "https://desolate-reef-02788.herokuapp.com/",
+    repositoryLink: "https://github.com/mohamedisaaq0/Code-College",
+  },
+  {
     // Homeworks:
     // Horiseon Code Refactor:
     image:
@@ -128,4 +139,6 @@ export default projects;
 
 // Group Projects:
 // 1. Done
-// 2.
+// 2. Done
+
+// May add more?
