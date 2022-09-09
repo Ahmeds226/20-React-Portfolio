@@ -17,7 +17,7 @@ import { Link } from "react-scroll";
 
 function NavbarComponent() {
   const [nav, setNav] = useState(false);
-  const handleClick = () => setNav(!nav);
+  //   const handleClick = () => setNav(!nav);
   return (
     <div className="fixed w-full h-[80px] flex justify-center items-center px-4 bg-red text-white z-10">
       <Link to="home" smooth={true} duration={500} offset={-80}></Link>
