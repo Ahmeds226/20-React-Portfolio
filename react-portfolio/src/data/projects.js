@@ -28,9 +28,20 @@ const projects = [
     alt: "Preview of my secure password generator",
     title: "Secure Password Generator",
     description:
-      "An application that enables employees to generate random passwords based on criteria that they have selected",
+      "An application that enables employees ,that may have sensitive data, to generate random passwords based on criteria that they have selected so that they ahve greater security.",
     repositoryLink: "https://github.com/Ahmeds226/secure-password-generator",
     deployedLink: "https://ahmeds226.github.io/secure-password-generator/",
+  },
+  {
+    // Code Quiz:
+    image:
+      "https://raw.githubusercontent.com/Ahmeds226/Code-Quiz/main/assets/images/preview.png",
+    alt: "Preview of my Code Quiz",
+    title: "Code Quiz",
+    description:
+      "A timed quiz that allowed a boot camp student such as myself to learn the fundamentals of of JavaScript and note down my highscores so that I can gauge my progress against my peers.",
+    repositoryLink: "https://github.com/Ahmeds226/Code-Quiz",
+    deployedLink: "https://ahmeds226.github.io/Code-Quiz/",
   },
 ];
 
@@ -38,7 +49,7 @@ export default projects;
 
 // 1. Code Refactor - Done
 // 2. Pro portfolio - Done
-// 3. Password Generator
+// 3. Password Generator - Done
 // 4. Code Quiz
 // 5. Day Planner
 // 6. Weather Dashboard
