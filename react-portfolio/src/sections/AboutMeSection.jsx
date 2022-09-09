@@ -1,1 +1,2 @@
-const About = () => {};
+const AboutMeSection = () => {};
+export default AboutMeSection;
