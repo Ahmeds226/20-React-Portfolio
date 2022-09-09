@@ -10,3 +10,7 @@ import { FaBars, FaGithub, FaLinkedin, FaPhoneSquareAlt } from "react-icons/fa";
 // IonIcons icons:
 // Mail :
 import { IoIosMail } from "react-icons/io";
+
+// Scrolling:
+// React Scroll:
+import { Link } from "react-scroll";
