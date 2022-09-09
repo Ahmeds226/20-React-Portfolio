@@ -1,2 +1,2 @@
-const HomeSection = () => {};
+function HomeSection() {}
 export default HomeSection;
