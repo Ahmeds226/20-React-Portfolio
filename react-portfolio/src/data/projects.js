@@ -1,6 +1,19 @@
 // List of projects:
 const projects = [
   {
+    // Group Projects:
+    // Football Tracker:
+    image:
+      "https://raw.githubusercontent.com/iosman11/Football-Tracker-/main/assets/screenshot.png",
+    alt: "Preview of the group project application we created called Football Tracker",
+    title: "Football Tracker",
+    description:
+      "Our website has been designed so that the user can find out up to date information about their favourite football team",
+    deployedLink: "https://idilosman.github.io/Football-Tracker-/",
+    repositoryLink: "https://github.com/iosman11/Football-Tracker-",
+  },
+  {
+    // Homeworks:
     // Horiseon Code Refactor:
     image:
       "https://raw.githubusercontent.com/Ahmeds226/Week-1-Homework/master/images/01-html-css-git-homework-demo.png",
@@ -101,6 +114,8 @@ const projects = [
 
 export default projects;
 
+// List of projects I need to add:
+
 // 1. Code Refactor - Done
 // 2. Pro portfolio - Done
 // 3. Password Generator - Done
@@ -109,8 +124,8 @@ export default projects;
 // 6. Weather Dashboard - Done
 // 7. Updated Portfolio - Done
 // 8. Note Taker - Done
-// 9. Text editor
+// 9. Text editor - Done
 
 // Group Projects:
-// 1.
+// 1. Done
 // 2.
