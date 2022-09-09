@@ -86,6 +86,17 @@ const projects = [
     deployedLink: "https://fierce-gorge-19170.herokuapp.com/",
     repositoryLink: "https://github.com/Ahmeds226/Note-taker",
   },
+  {
+    // Text Editor:
+    image:
+      "https://raw.githubusercontent.com/Ahmeds226/Text-Editor/main/assets/images/preview.png",
+    alt: "Preview of my Text Editor",
+    title: "Text Editor",
+    description:
+      "An application that enables people such as a developer to create notes or code snippets with or without an internet connection so that they can access them later.",
+    deployedLink: "https://enigmatic-woodland-87299.herokuapp.com/",
+    repositoryLink: "https://github.com/Ahmeds226/Text-Editor",
+  },
 ];
 
 export default projects;
