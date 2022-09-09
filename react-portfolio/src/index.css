@@ -2,3 +2,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Google Font: Roboto Thin 100 */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
+
+/* Applying overall CSS variables */
+@layer base {
+  /* Body Text */
+  body {
+    @apply font-[Roboto];
+  }
+}
