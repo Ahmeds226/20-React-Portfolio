@@ -1,5 +1,4 @@
 // Imports:
-
 // IonIcons import:
 // Code // IOS Create icon:
 import { IoIosCreate } from "react-icons/io";
@@ -17,6 +16,7 @@ const ProjectSection = ({
   deployedLink,
   repositoryLink,
 }) => {
+  // Preview section / Images:
   <div className="card group max-w-md bg-base-100 shadow-lg rounded-lg mx-auto cursor-pointer">
     <figure className="h-48 overflow-auto">
       <img
