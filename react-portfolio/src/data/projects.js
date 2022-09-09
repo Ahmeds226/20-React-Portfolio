@@ -21,6 +21,17 @@ const projects = [
     repositoryLink: "https://github.com/Ahmeds226/Portfolio-Project",
     deployedLink: "https://ahmeds226.github.io/Portfolio-Project/",
   },
+  {
+    // Secure Password Generator:
+    image:
+      "https://raw.githubusercontent.com/Ahmeds226/secure-password-generator/main/assets/images/Screenshot%202022-04-26%20at%2021.46.19.png",
+    alt: "Preview of my secure password generator",
+    title: "Secure Password Generator",
+    description:
+      "An application that enables employees to generate random passwords based on criteria that they have selected",
+    repositoryLink: "https://github.com/Ahmeds226/secure-password-generator",
+    deployedLink: "https://ahmeds226.github.io/secure-password-generator/",
+  },
 ];
 
 export default projects;
