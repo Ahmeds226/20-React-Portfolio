@@ -21,7 +21,9 @@ const ProjectSection = ({
     <figure className="h-48 overflow-auto">
       <img
         className="w-full h-full object-contain object-top p-5 bg-sky-600 group-hover:bg-red-500"
+        // Preview image:
         src={image}
+        // text if image does not show:
         alt={alt}
       />
     </figure>
