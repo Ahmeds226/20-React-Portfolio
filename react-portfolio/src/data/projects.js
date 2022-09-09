@@ -43,6 +43,17 @@ const projects = [
     repositoryLink: "https://github.com/Ahmeds226/Code-Quiz",
     deployedLink: "https://ahmeds226.github.io/Code-Quiz/",
   },
+  {
+    // Work Day Planner:
+    image:
+      "https://raw.githubusercontent.com/Ahmeds226/Work-Day-Planner/main/assets/images/preview.png",
+    alt: "Preview of my Work Day Planner",
+    title: "Work Day Planner",
+    description:
+      "An application that allows employees with a busy schedule to add important events to their daily planner allowing them to manage their time effectively.",
+    repositoryLink: "https://github.com/Ahmeds226/Work-Day-Planner",
+    deployedLink: "https://ahmeds226.github.io/Work-Day-Planner/",
+  },
 ];
 
 export default projects;
@@ -51,7 +62,7 @@ export default projects;
 // 2. Pro portfolio - Done
 // 3. Password Generator - Done
 // 4. Code Quiz - Done
-// 5. Day Planner
+// 5. Day Planner - Done
 // 6. Weather Dashboard
 // 7. Updated Portfolio
 // 8. Note Taker
