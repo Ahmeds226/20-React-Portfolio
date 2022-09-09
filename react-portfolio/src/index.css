@@ -12,5 +12,9 @@
   body {
     @apply font-[Roboto];
   }
-  /* Add more styling */
+  /* Navbar styling */
+  li {
+    @apply px-4;
+    @apply cursor-pointer;
+  }
 }
