@@ -1,5 +1,8 @@
-// Import all components and sections here!!!
+// Import:
+// Components:
 import NavbarComponent from "./components/NavbarComponent";
+
+// Sections:
 
 function App() {
   return (
