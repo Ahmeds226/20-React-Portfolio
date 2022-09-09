@@ -20,7 +20,7 @@ function NavbarComponent() {
   //   const handleClick = () => setNav(!nav);
   return (
     // Navbar
-    <div className="fixed w-full h-[80px] flex justify-center items-center px-4 bg-red text-white z-10">
+    <div className="fixed w-full h-[80px] flex justify-center items-center px-4 bg-darkgray text-white z-10">
       <Link to="home" smooth={true} duration={500} offset={-80}></Link>
 
       {/* Navbar Menu */}
