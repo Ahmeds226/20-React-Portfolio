@@ -6,7 +6,7 @@ const projects = [
     alt: "picture of Horiseon Code Refactor",
     title: "Horiseon Code Refactor",
     description:
-      "An improved codebase, for a marketing agency , that follows accessibility standards to omptimise their webisite for search engines. ",
+      "An improved codebase, for a marketing agency, that follows accessibility standards to optimise their webisite for search engines.",
     repositoryLink: "https://github.com/Ahmeds226/Week-1-Homework",
     deployedLink: "https://ahmeds226.github.io/Week-1-Homework/",
   },
