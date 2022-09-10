@@ -49,7 +49,7 @@ const ContactMeSection = () => {
 
         {/* Message me button */}
         <button className="bg-white text-black border-3 hover:text-white hover:bg-red hover:border-white px-4 py-3 mx-auto my-8 items-center">
-          Message me
+          Message me!
         </button>
       </form>
     </div>

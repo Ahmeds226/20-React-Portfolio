@@ -15,15 +15,21 @@ const AboutMeSection = () => {
         <div className="max-w-[1000px] w-full sm:grid grid-cols-2 gap-8 px-4 space-y-6 sm:space-y-0">
           <div className="sm:text-right text-4xl font-bold ">
             <p>
-              <p>Im Ahmed Shahnawaz and I'm a fullstack developer!</p>
+              <p>
+                Lorem 123 ipsum dolor sit amet consectetur adipisicing elit.
+                Eum, ipsa quo nihil accusantium repudiandae, sapiente tempora
+                non sint ducimus quisquam est possimus repellat culpa mollitia
+                molestias odio nemo tempore modi!
+              </p>
             </p>
           </div>
           {/* Body text */}
           <div className="space-y-2">
             <p>
-              My name is Ahmed Shahnawaz and I am currently in my placement year
-              at Aston University. Within the placement year, I am currently
-              undertaking a coding boot camp at the University of Birmingham.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+              quo, amet laboriosam minima cum ducimus sint dolores quaerat
+              voluptates, sapiente nam a odit porro illo voluptatibus eius modi
+              dolore. Aspernatur?
             </p>
           </div>
         </div>
