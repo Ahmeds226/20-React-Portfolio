@@ -17,7 +17,7 @@ const ProjectSection = () => {
         {/* Title */}
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 text-[#000000] border-red">
-            My projects:
+            My Projects:
           </p>
         </div>
         <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">

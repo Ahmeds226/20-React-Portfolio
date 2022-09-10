@@ -12,15 +12,10 @@ const AboutMeSection = () => {
           </div>
         </div>
         {/* Sub-heading */}
-        <div className="max-w-[1000px] w-full sm:grid grid-cols-2 gap-8 px-4 space-y-6 sm:space-y-0">
+        <div className="max-w-[1000px] w-full sm:grid grid-cols-2 gap-9 px-4 space-y-6 sm:space-y-0">
           <div className="sm:text-right text-4xl font-bold ">
             <p>
-              <p>
-                Lorem 123 ipsum dolor sit amet consectetur adipisicing elit.
-                Eum, ipsa quo nihil accusantium repudiandae, sapiente tempora
-                non sint ducimus quisquam est possimus repellat culpa mollitia
-                molestias odio nemo tempore modi!
-              </p>
+              <p>Who am I?</p>
             </p>
           </div>
           {/* Body text */}

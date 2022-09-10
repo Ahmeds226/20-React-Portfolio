@@ -13,7 +13,9 @@ function HomeSection() {
       <div className="container flex flex-col lg:flex-row items-center justify-center h-full mx-auto space-y-20 lg:space-x-20">
         <div className="max-w-[1000px] px-8 flex flex-col justify-center lg:h-full">
           {/* Sub text */}
-          <h1 className="sm:text-2xl font-bold text-[#000000]">My name is</h1>
+          <h1 className="sm:text-2xl py-2 font-bold text-[#000000]">
+            My name is
+          </h1>
 
           {/* Name */}
           <h2 className="text-6xl sm:text:text-7xl font-bold text-red">
@@ -21,10 +23,8 @@ function HomeSection() {
           </h2>
 
           {/* Description */}
-          <p className="text-[#000000] py-4 max-w-[500px]">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Error neque
-            illo, porro dicta hic nemo quos natus praesentium amet magni velit
-            molestiae alias, nulla iure numquam expedita autem esse minima.
+          <p className="text-[#000000] text-2xl py-2 max-w-[500px]">
+            and im a fullstack developer!
           </p>
 
           {/* View projects */}

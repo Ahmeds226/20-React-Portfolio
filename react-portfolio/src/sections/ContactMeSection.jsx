@@ -15,7 +15,7 @@ const ContactMeSection = () => {
         {/* Contact title */}
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-red text-white">
-            Contact
+            Contact Me:
           </p>
           {/* Sub-text */}
           <p className="text-white py-4">
