@@ -11,6 +11,7 @@ const AboutMeSection = () => {
             </p>
           </div>
         </div>
+
         {/* Sub-heading */}
         <div className="max-w-[1000px] w-full sm:grid grid-cols-2 gap-9 px-4 space-y-6 sm:space-y-0">
           <div className="sm:text-right text-4xl font-bold ">
@@ -18,6 +19,7 @@ const AboutMeSection = () => {
               <p>Who am I?</p>
             </p>
           </div>
+
           {/* Body text */}
           <div className="space-y-2">
             <p>
