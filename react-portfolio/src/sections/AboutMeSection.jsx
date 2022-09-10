@@ -26,8 +26,17 @@ const AboutMeSection = () => {
               My name is Ahmed Shahnawaz and I am currently in my placement year
               at Aston University. Within the placement year, I am currently
               undertaking a coding boot camp at the University of Birmingham.
-              View CV
             </p>
+            {/* View CV */}
+            <a
+              href="https://ahmeds226.github.io/Updated-Portfolio-Page-2/assets/pdf/CV.pdf"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <button className=" text-white bg-red border-2 border-darkgray group px-6 py-3 my-2 flex items-center mx-auto lg:mx-0 hover:text-red hover:bg-white hover:border-red hover:animate-bounce">
+                View my CV
+              </button>
+            </a>
           </div>
         </div>
       </div>
