@@ -23,10 +23,10 @@ const AboutMeSection = () => {
           {/* Body text */}
           <div className="space-y-2">
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
-              quo, amet laboriosam minima cum ducimus sint dolores quaerat
-              voluptates, sapiente nam a odit porro illo voluptatibus eius modi
-              dolore. Aspernatur?
+              My name is Ahmed Shahnawaz and I am currently in my placement year
+              at Aston University. Within the placement year, I am currently
+              undertaking a coding boot camp at the University of Birmingham.
+              View CV
             </p>
           </div>
         </div>
