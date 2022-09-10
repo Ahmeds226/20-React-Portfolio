@@ -1,5 +1,5 @@
 // List of projects:
-const projectData = [
+const listofprojects = [
   {
     // Group Projects:
     // Football Tracker:
@@ -123,7 +123,7 @@ const projectData = [
   },
 ];
 
-export default projectData;
+export default listofprojects;
 
 // List of projects I need to add:
 

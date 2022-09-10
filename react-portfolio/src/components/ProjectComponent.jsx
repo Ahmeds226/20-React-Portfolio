@@ -8,7 +8,7 @@ import { IoIosDesktop } from "react-icons/io";
 
 // Made function to call the project section:
 // Listed the labels that would come up:
-const ProjectComponent = ({
+const ProjectComponentdata = ({
   image,
   alt,
   title,
@@ -57,4 +57,4 @@ const ProjectComponent = ({
   );
 };
 
-export default ProjectComponent;
+export default ProjectComponentdata;
