@@ -53,7 +53,7 @@ function HomeSection() {
             <img
               className="w-64 h-64 rounded-md border-2 border-red"
               src="https://avatars.githubusercontent.com/u/99031421?s=400&u=b3098af3dbaa116d3f8f68ddee0c369e94001fb1&v=4"
-              alt="Picture of me"
+              alt=""
             />
           </div>
         </div>

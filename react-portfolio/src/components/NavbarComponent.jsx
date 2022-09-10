@@ -17,7 +17,7 @@ import { Link } from "react-scroll";
 
 function NavbarComponent() {
   const [nav, setNav] = useState(false);
-  //   const handleClick = () => setNav(!nav);
+  const handleClick = () => setNav(!nav);
   return (
     // Navbar
     <div className="fixed w-full h-[80px] flex justify-center items-center px-4 bg-darkgray text-white z-10">
