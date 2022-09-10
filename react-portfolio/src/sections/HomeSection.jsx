@@ -13,7 +13,7 @@ function HomeSection() {
       <div className="container flex flex-col lg:flex-row items-center justify-center h-full mx-auto space-y-20 lg:space-x-20">
         <div className="max-w-[1000px] px-8 flex flex-col justify-center lg:h-full">
           {/* Sub text */}
-          <h1 className="sm:text-2xl font-bold text-black">My name is</h1>
+          <h1 className="sm:text-2xl font-bold text-[#000000]">My name is</h1>
 
           {/* Name */}
           <h2 className="text-6xl sm:text:text-7xl font-bold text-red">
@@ -21,7 +21,7 @@ function HomeSection() {
           </h2>
 
           {/* Description */}
-          <p className="text-black py-4 max-w-[500px]">
+          <p className="text-[#000000] py-4 max-w-[500px]">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Error neque
             illo, porro dicta hic nemo quos natus praesentium amet magni velit
             molestiae alias, nulla iure numquam expedita autem esse minima.
@@ -31,7 +31,7 @@ function HomeSection() {
           <div>
             <Link to="projects" smooth={true} duration={500} offset={-80}>
               {/* Buttons */}
-              <button className=" text-black bg-white border-2 border-red group px-6 py-3 my-2 flex items-center mx-auto lg:mx-0 hover:text-white hover:bg-red-600 hover:border-black hover:animate-pulse">
+              <button className=" text-white bg-red border-2 border-darkgray group px-6 py-3 my-2 flex items-center mx-auto lg:mx-0 hover:text-red hover:bg-white hover:border-red hover:animate-bounce">
                 View Projects
                 {/* Icons */}
                 {/* Right arrow */}

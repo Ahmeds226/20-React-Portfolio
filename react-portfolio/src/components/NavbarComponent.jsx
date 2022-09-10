@@ -20,27 +20,27 @@ function NavbarComponent() {
   const handleClick = () => setNav(!nav);
   return (
     // Navbar
-    <div className="fixed w-full h-[80px] flex justify-center items-center px-4 bg-darkgray text-white z-10">
+    <div className="fixed w-full h-[80px] flex justify-center items-center border-b-4 border-darkgray bg-red text-white">
       <Link to="home" smooth={true} duration={500} offset={-80}></Link>
 
       {/* Navbar Menu */}
       <ul className="hidden md:flex space-x-4">
-        <li className="border-transparent border-b-2 pb-2 hover:border-pink-600 hover:text-white hover:border-b-2">
+        <li className="hover:text-darkgray">
           <Link to="home" smooth={true} duration={500} offset={-80}>
             Home
           </Link>
         </li>
-        <li className=" border-transparent border-b-2 hover:border-pink-600 hover:text-white hover:border-b-2">
+        <li className="hover:text-darkgray">
           <Link to="aboutme" smooth={true} duration={500} offset={-80}>
             About Me
           </Link>
         </li>
-        <li className="border-transparent border-b-2 pb-2 hover:border-pink-600 hover:text-white hover:border-b-2">
+        <li className="hover:text-darkgray">
           <Link to="projects" smooth={true} duration={500} offset={-80}>
             Projects
           </Link>
         </li>
-        <li className="border-transparent border-b-2 pb-2 hover:border-pink-600 hover:text-white hover:border-b-2">
+        <li className="hover:text-darkgray">
           <Link to="contactme" smooth={true} duration={500} offset={-80}>
             Contact Me
           </Link>

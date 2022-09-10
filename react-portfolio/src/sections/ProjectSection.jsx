@@ -9,11 +9,14 @@ import listofprojects from "../data/projectData";
 const ProjectSection = () => {
   return (
     // Background:
-    <div name="projects" className="w-full md:min-h-screen text-black bg-white">
+    <div
+      name="projects"
+      className="w-full md:min-h-screen text-[#000000] bg-white"
+    >
       <div className="max-w-7xl mx-auto p-4 flex flex-col justify-center w-full h-full">
         {/* Title */}
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 text-black border-red">
+          <p className="text-4xl font-bold inline border-b-4 text-[#000000] border-red">
             My projects:
           </p>
         </div>

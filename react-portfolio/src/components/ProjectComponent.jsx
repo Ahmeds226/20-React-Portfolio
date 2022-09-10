@@ -21,7 +21,7 @@ const ProjectComponentdata = ({
     <div className="card group max-w-md bg-base-100 shadow-lg rounded-lg mx-auto cursor-pointer">
       <figure className="h-48 overflow-auto">
         <img
-          className="w-full h-full object-contain object-top p-5 bg-white group-hover:bg-red"
+          className="w-full h-full object-contain object-top p-4 bg-white group-hover:bg-red"
           // Preview image:
           src={image}
           // text if image does not show:
@@ -30,7 +30,7 @@ const ProjectComponentdata = ({
       </figure>
       {/* Card body: */}
       {/* Description: */}
-      <div className="card-body bg-darkgray space-y-4 group-hover:bg-white group-hover:text-black">
+      <div className="card-body bg-darkgray text-white space-y-4 group-hover:bg-white group-hover:text-[#000000]">
         {/* Title: */}
         <h2 className="card-title underline font-bold">{title}</h2>
         <p className="text-md">{description}</p>
@@ -38,7 +38,7 @@ const ProjectComponentdata = ({
           {/* Repository Link and Icon: */}
           {repositoryLink ? (
             <a href={repositoryLink} target="_blank" rel="noreferrer">
-              <button className="btn bg-red mx-auto">
+              <button className="btn bg-white mx-auto">
                 <IoIosCreate />
               </button>
             </a>
@@ -47,7 +47,7 @@ const ProjectComponentdata = ({
           )}
           {/* Deployment Link and Icon: */}
           <a href={deployedLink} target="_blank" rel="noreferrer">
-            <button className="btn bg-red mx-auto">
+            <button className="btn bg-white mx-auto">
               <IoIosDesktop />
             </button>
           </a>

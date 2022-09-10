@@ -4,7 +4,7 @@ const ContactMeSection = () => {
     // Contact me section:
     <div
       name="contactme"
-      className="w-full h-screen bg-black flex justify-center items-center p-4"
+      className="w-full h-screen bg-darkgray flex justify-center items-center p-4"
     >
       {/* Getform : Email form */}
       <form
@@ -48,7 +48,7 @@ const ContactMeSection = () => {
         ></textarea>
 
         {/* Message me button */}
-        <button className="bg-white text-black border-3 hover:text-white hover:bg-red hover:border-white px-4 py-3 mx-auto my-8 items-center">
+        <button className="bg-white text-[#000000] border-3 hover:text-white hover:bg-red hover:border-white px-4 py-3 mx-auto my-8 items-center">
           Message me!
         </button>
       </form>
