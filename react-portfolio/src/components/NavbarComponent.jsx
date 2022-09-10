@@ -4,8 +4,8 @@ import { useState } from "react";
 
 // Icons:
 // Font Awesome icons:
-// Hamburger, Github, LinkedIn and Phone icons:
-import { FaBars, FaGithub, FaLinkedin, FaPhoneSquareAlt } from "react-icons/fa";
+// Hamburger, Github, LinkedIn icons:
+import { FaBars, FaGithub, FaLinkedin } from "react-icons/fa";
 
 // IonIcons icons:
 // Mail and Close button :
@@ -47,18 +47,18 @@ function NavbarComponent() {
         </li>
       </ul>
 
-      {/* hamburger */}
+      {/* Hamburger / Mobile phone menu */}
       <div onClick={handleClick} className="md:hidden z-10">
         {!nav ? <FaBars /> : <IoIosCloseCircle />}
       </div>
-      {/* mobile menu */}
       <ul
         className={
           !nav
             ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
+            : "absolute top-0 left-0 w-full h-screen bg-red flex flex-col justify-center items-center"
         }
       >
+        {/* View Home section */}
         <li className="py-6 text-4xl">
           <Link
             onClick={handleClick}
@@ -70,6 +70,7 @@ function NavbarComponent() {
             Home
           </Link>
         </li>
+        {/* View About Me section */}
         <li className="py-6 text-4xl">
           <Link
             onClick={handleClick}
@@ -81,6 +82,7 @@ function NavbarComponent() {
             About Me
           </Link>
         </li>
+        {/* View Projects section */}
         <li className="py-6 text-4xl">
           <Link
             onClick={handleClick}
@@ -89,9 +91,10 @@ function NavbarComponent() {
             duration={500}
             offset={-80}
           >
-            Work
+            Projects
           </Link>
         </li>
+        {/* View Contact me section */}
         <li className="py-6 text-4xl">
           <Link
             onClick={handleClick}
@@ -104,6 +107,48 @@ function NavbarComponent() {
           </Link>
         </li>
       </ul>
+
+      {/* Social Media icons */}
+
+      {/* LinkedIn */}
+      <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
+        <ul>
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#2D64BC]">
+            <a
+              className="flex justify-between items-center w-full text-white"
+              href="https://www.linkedin.com/in/ahmed-shahnawaz-a869791bb/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              LinkedIn <FaLinkedin size={30} />
+            </a>
+          </li>
+
+          {/* GitHub */}
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#0E1116]">
+            <a
+              className="flex justify-between items-center w-full text-white"
+              href="https://github.com/Ahmeds226"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Github <FaGithub size={30} />
+            </a>
+          </li>
+
+          {/* Email */}
+          <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#57B6F3]">
+            <a
+              className="flex justify-between items-center w-full text-white"
+              href="mailto:iahmed.s226@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Email <IoIosMail size={30} />
+            </a>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 }
