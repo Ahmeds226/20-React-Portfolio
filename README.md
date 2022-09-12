@@ -46,4 +46,4 @@ THEN I am presented with text or icon links to the developer’s GitHub and Link
 
 ## Deployed Link:
 
-<!--  -->
+https://ahmeds226.github.io/20-React-Portfolio/
